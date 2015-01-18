@@ -62,4 +62,3 @@ legend("topright",
        lwd = 1
        )
 dev.off()
-
