@@ -79,3 +79,5 @@ legend("topright",
 plot(newDAT$DTTM, newDAT$Global_reactive_power, type = "l", xlab= "datetime", ylab = "Global_reactive_power")
 
 dev.off()
+
+
