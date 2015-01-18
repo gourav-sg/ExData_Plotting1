@@ -56,5 +56,3 @@ t <- subset(t, t$Date <= as.Date("2007-02-02", format = "%Y-%m-%d"))
 png(filename = "./data/plot1.png", width = 480, height = 480, units = "px")
 hist(t$Global_active_power, xlab = "Global Active Power (kilowatts)", ylab = "Frequency", main = "Global Active Power", col = "red")
 dev.off()
-
-
