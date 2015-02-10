@@ -52,6 +52,6 @@ newDAT$DTTM <- strptime(paste(as.character(newDAT$Date), newDAT$Time), "%Y-%m-%d
 head(newDAT)
 
 ## creating the graph
-png(filename = "./data/plot2.png", width = 480, height = 480, units = "px")
+png(filename = "./figure/plot2.png", width = 480, height = 480, units = "px")
 plot(newDAT$DTTM, newDAT$Global_active_power, type = "l", xlab= "", ylab = "Global Active Power(kilowatts)")
 dev.off()

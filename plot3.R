@@ -52,7 +52,7 @@ newDAT$DTTM <- strptime(paste(as.character(newDAT$Date), newDAT$Time), "%Y-%m-%d
 head(newDAT)
 
 ## creating the graph
-png(filename = "./data/plot3.png", width = 480, height = 480, units = "px")
+png(filename = "./figure/plot3.png", width = 480, height = 480, units = "px")
 plot(newDAT$DTTM, newDAT$Sub_metering_1, type = "l", xlab= "", ylab = "Energy sub metering")
 lines(newDAT$DTTM, newDAT$Sub_metering_2, type = "l", col = "red")
 lines(newDAT$DTTM, newDAT$Sub_metering_3, type = "l", col = "blue")

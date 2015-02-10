@@ -52,7 +52,7 @@ newDAT$DTTM <- strptime(paste(as.character(newDAT$Date), newDAT$Time), "%Y-%m-%d
 head(newDAT)
 
 ## creating the graph
-png(filename = "./data/plot4.png", width = 480, height = 480, units = "px")
+png(filename = "./figure/plot4.png", width = 480, height = 480, units = "px")
 ## these graphs will be created row-wise from left to right
 par(mfrow = c(2,2))
 
