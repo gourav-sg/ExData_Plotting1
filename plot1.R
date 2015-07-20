@@ -54,5 +54,6 @@ t <- subset(t, t$Date <= as.Date("2007-02-02", format = "%Y-%m-%d"))
 
 ## creating the graph
 png(filename = "./figure/plot1.png", width = 480, height = 480, units = "px")
+## note in case the command does not work, then change the path above to complete path
 hist(t$Global_active_power, xlab = "Global Active Power (kilowatts)", ylab = "Frequency", main = "Global Active Power", col = "red")
 dev.off()

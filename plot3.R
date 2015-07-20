@@ -53,6 +53,7 @@ head(newDAT)
 
 ## creating the graph
 png(filename = "./figure/plot3.png", width = 480, height = 480, units = "px")
+## in case the file is not accessible then mention the complete path in MAC
 plot(newDAT$DTTM, newDAT$Sub_metering_1, type = "l", xlab= "", ylab = "Energy sub metering")
 lines(newDAT$DTTM, newDAT$Sub_metering_2, type = "l", col = "red")
 lines(newDAT$DTTM, newDAT$Sub_metering_3, type = "l", col = "blue")

@@ -53,6 +53,7 @@ head(newDAT)
 
 ## creating the graph
 png(filename = "./figure/plot4.png", width = 480, height = 480, units = "px")
+## mention complete path in case the above is not generating the files
 ## these graphs will be created row-wise from left to right
 par(mfrow = c(2,2))
 
